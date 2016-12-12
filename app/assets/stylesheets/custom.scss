@@ -5,8 +5,6 @@
 
 body{
 	padding-top: 60px;
-
-	background-image: url("background.jpg "); 
 	background-repeat: no-repeat;
 	background-size: 100% 245%;
 	overflow: hidden;
@@ -64,7 +62,7 @@ p {
   color: #fff;
   text-transform: uppercase;
   letter-spacing: -1px;
-  padding-top: 9px;
+  padding-top: 15px;
   font-weight: bold;
 }
 
@@ -79,7 +77,6 @@ footer {
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
-  color: #fff;
 }
 
 footer a {
@@ -102,4 +99,10 @@ footer ul {
 footer ul li {
   float: left;
   margin-left: 15px;
+  color: grey;
+}
+
+/* Property for button background oh Glyphicons. */
+.white {
+  color: white;
 }

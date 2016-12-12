@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  resources :users
+  # Paths for sessions.
+  get    '/login', to: 'sessions#new'
+  post   '/login', to: 'sessions#create'
+  delete '/login', to: 'sessions#destroy'
+
   get 'page/Index'
 
   # The priority is based upon order of creation: first created -> highest priority.
